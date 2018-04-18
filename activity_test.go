@@ -50,7 +50,7 @@ func TestEval(t *testing.T) {
 
 	
 	//setup attrs
-	tc.SetInput(consumerKey,"yVUaVdBYnsAzIqkz3Yt7skHIY")
+	tc.SetInput("consumerKey","yVUaVdBYnsAzIqkz3Yt7skHIY")
 	
 	act.Eval(tc)
 
