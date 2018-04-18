@@ -36,9 +36,11 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error)  {
 	
 
 fmt.Println(" Enter your consumerKey")
+	
 	//reader := bufio.NewReader(os.Stdin)
 	//consumerKey, _ = reader.ReadString('\n')
 	fmt.Scanf("%s", &consumerKey)
+	consumerKey := context.GetInput("consumerKey").(string)
 
    
 	config := oauth1.NewConfig(consumerKey,consumerSecret)
