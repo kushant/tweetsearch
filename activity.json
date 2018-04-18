@@ -1,0 +1,23 @@
+{
+  "name": "tweetsearch",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "description": "activity description",
+  "author": "Kushant Patel & Basil Shaikh <kupatel@tibco.com>",
+  "inputs":[
+    {
+      "name": "consumerKey",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "timeline",
+      "type": "array"
+    },
+	{
+	  "name": "tweet",
+	  "type": "array"
+	}
+  ]
+}
