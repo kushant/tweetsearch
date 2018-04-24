@@ -4,7 +4,7 @@
   "type": "flogo:activity",
   "description": "activity description",
   "author": "Kushant Patel & Basil Shaikh <kupatel@tibco.com>",
-	"ref" : "https://github.com/kushant/twitter_search_timeline",
+	"ref" : "https://github.com/kushant/tweetsearch",
   "inputs":[
     {
       "name": "consumerKey",
